@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: #bbdbf7;
+}
+
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 69;
+    background: rgba(0, 0, 0, 0.6) ;
+    
+}
+
+.logo
+{
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    user-select: none;
+}
+
+#logo_a{
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+#logo_a:hover{
+    transform: scale(1.1);
+}
+
+.navbar a
+{
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+    color: white;
+    position: relative;
+    font-weight:500;
+}
+
+.navbar a::after
+{
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    border-radius: 5px;
+    left: 0;
+    bottom: -6px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navbar a:hover::after
+{
+    transform: scaleX(1);
+}
+
+
+#img_gal
+{
+    width: 90%;
+    margin: 150px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+    user-select: none;
+
+}
+#img_gal img
+{
+    width: 100%;
+    cursor: pointer;
+    transition: transform 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+#img_gal img:hover
+{
+    transform: scale(1.1);
+    border-radius: 5px;
+    box-shadow: 0 32px 75px rgba(68,77,136,0.2);
+}
+.click_img
+{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    user-select: none;
+
+}
+
+.click_img img
+{
+
+    /* width: 80%; */
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 1;
+}
+
+.click_img span
+{
+    
+    font-size: 35px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    color: white; 
+    margin: 0px 5px 0px 5px;
+    
+}
+
+.click_img span:hover
+{
+    transform: scale(1.2);
+}
+
+#close_btn
+{ 
+    position: fixed;
+    top: 2.5rem;
+    right: 4rem;
+    font-size: 40px;
+}
+
+#close_btn:hover
+{
+    color: red;
+    transform: scale(1.3);
+}
+
+/* #right_arrow
+{
+    right: 9%;
+}
+
+#left_arrow
+{
+    right: 13%;
+} */
+
+#download
+{
+    position: fixed;
+    top: 2.5rem;
+    right: 10rem;
+    font-size: 40px;
+}
+
+#left_arrow:hover, #right_arrow:hover
+{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 50%;
+}
+
+#download:hover
+{
+    color: rgb(4, 255, 0);
+}
+
+.arrow_keys
+{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    left: calc(50vw - min(50vh, 50vw));
+    width: calc(min(100vh, 100vw));
+
+}

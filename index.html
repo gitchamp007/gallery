@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0" />
+</head>
+<body>
+    <header>
+        <a href="#" id="logo_a"><h1 class="logo">PicsDekho</h1></a>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Trending</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    
+    <div class="click_img" id="click_img_box">{
+        <img src="Images/1.jpg" id="clicked_img">
+        <div class="btn">
+            <span class="material-symbols-outlined" id="close_btn" onclick="closeimg()">close</span>
+            
+            <div class="arrow_keys">
+                <span class="material-symbols-outlined" id="left_arrow" onclick="prev()">arrow_back_ios</span>
+                <span class="material-symbols-outlined" id="right_arrow" onclick="next()">arrow_forward_ios</span>
+            </div>
+            <a href="" download id="download">
+                <span class="material-symbols-outlined" id="download" onclick="download()">download</span>
+            </a>
+
+        </div>
+        
+    </div>
+    <div id="img_gal">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
