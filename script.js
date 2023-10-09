@@ -6,7 +6,7 @@ const gallery = document.getElementById("img_gal");
 
 var count = 0;
 
-var img = ['http://127.0.0.1:5500/Images/img1.jpg', 'http://127.0.0.1:5500/Images/1.jpg', 'http://127.0.0.1:5500/Images/2.jpg', 'http://127.0.0.1:5500/Images/img2.jpg', 'http://127.0.0.1:5500/Images/img3.jpg', 'http://127.0.0.1:5500/Images/3.jpg', 'http://127.0.0.1:5500/Images/img4.jpg', 'http://127.0.0.1:5500/Images/4.jpg', 'http://127.0.0.1:5500/Images/5.jpg', 'http://127.0.0.1:5500/Images/img5.jpg', 'http://127.0.0.1:5500/Images/6.jpg', 'http://127.0.0.1:5500/Images/img6.jpg', 'http://127.0.0.1:5500/Images/img7.jpg', 'http://127.0.0.1:5500/Images/7.jpg', 'http://127.0.0.1:5500/Images/img8.jpg', 'http://127.0.0.1:5500/Images/8.jpg'];
+var img = ['Images/img1.jpg', 'http://127.0.0.1:5500/Images/1.jpg', 'http://127.0.0.1:5500/Images/2.jpg', 'http://127.0.0.1:5500/Images/img2.jpg', 'http://127.0.0.1:5500/Images/img3.jpg', 'http://127.0.0.1:5500/Images/3.jpg', 'http://127.0.0.1:5500/Images/img4.jpg', 'http://127.0.0.1:5500/Images/4.jpg', 'http://127.0.0.1:5500/Images/5.jpg', 'http://127.0.0.1:5500/Images/img5.jpg', 'http://127.0.0.1:5500/Images/6.jpg', 'http://127.0.0.1:5500/Images/img6.jpg', 'http://127.0.0.1:5500/Images/img7.jpg', 'http://127.0.0.1:5500/Images/7.jpg', 'http://127.0.0.1:5500/Images/img8.jpg', 'http://127.0.0.1:5500/Images/8.jpg'];
 
 
 
