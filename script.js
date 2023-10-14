@@ -3,26 +3,24 @@ const clicked_img = document.getElementById("clicked_img");
 const download_link = document.getElementById("download");
 const gallery = document.getElementById("img_gal");
 
-var count = 0;
-
 var img = [
-    'images/img1.jpg',
-    'images/1.jpg',
-    'images/2.jpg',
-    'images/img2.jpg',
-    'images/img3.jpg',
-    'images/3.jpg',
-    'images/img4.jpg',
-    'images/4.jpg',
-    'images/5.jpg',
-    'images/img5.jpg',
-    'images/6.jpg',
-    'images/img6.jpg',
-    'images/img7.jpg',
-    'images/7.jpg',
-    'images/img8.jpg',
-    'images/8.jpg'
-  ];
+    'Images/img1.jpg',
+    'Images/1.jpg',
+    'Images/2.jpg',
+    'Images/img2.jpg',
+    'Images/img3.jpg',
+    'Images/3.jpg',
+    'Images/img4.jpg',
+    'Images/4.jpg',
+    'Images/5.jpg',
+    'Images/img5.jpg',
+    'Images/6.jpg',
+    'Images/img6.jpg',
+    'Images/img7.jpg',
+    'Images/7.jpg',
+    'Images/img8.jpg',
+    'Images/8.jpg'
+];
 
 
 for (let i = 0; i < img.length; i++) {
